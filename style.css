@@ -1,0 +1,82 @@
+/*img{
+    height: 300px;
+    width: 100%;
+}*/
+.img{
+    /*background-image: url("photo.jpg");
+    background-color: aqua;*/
+    height: 300px;
+    width: 100%;
+    background-image: url("photo.jpg");
+    background-repeat: no-repeat;
+    
+}
+/*form{
+   margin-left: 150px;
+}*/
+.field{
+
+    background-color: brown;
+    height: 40px;
+    width: 200px;
+}
+#image{
+    position: relative;
+}
+.input{
+    margin-left: 150px;
+    width: 480px;
+}
+.save{
+    /*background-color: cornflowerblue;*/
+    text-align: center;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .li {
+    float: right
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(46, 179, 90);
+  }
+  .dive{
+      float: right;
+  }
+  #btn{
+      background-color: blue
+  }
+  .nav{
+       height: 100px;
+       width: 900px;
+       background-color: rgb(207, 99, 189);
+  }
+  body{
+      margin-left: 250px;
+  }
+  img{
+      margin-top: 0px;
+      width: 900px;
+  }
+  .up{
+    width: 900px;
+  }
+  .logo{
+      width: 70px;
+  }
