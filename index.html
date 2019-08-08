@@ -1,62 +1,87 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Inquiry Page</title>
 
-        <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="style.css"> 
-        
-    </head>
-    <body> 
-        <header>
-            <div class="up">
-            
-                <div >
-                    
-                    <ul class="nav"><!--img class="nav-brand block" src="images/logo.png" alt="logo"-->
-                        <img class="logo" src="images/logo.png" alt="logo">
-                        <li class="li"><a href="#">Home</a></li>
-                        <li class="li"><a href="#">News</a></li>
-                        <li class="li"><a href="#">Contact</a></li>
-                        <li class="li"><a href="#">About</a></li>
-                    </ul>
-                </div>
-            
-                <img src="images/business.png" class="img">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>DIVE INTO CODE</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <img class="nav-brand block" src="images/logo.png" alt="logo">
+            <div class="nav-navbar">
+                <ul class="nav-items">
+                    <li class="nav-item block"><a href="#">Home</a></li>
+                    <li class="nav-item block"><a href="#">Services</a></li>
+                    <li class="nav-item block"><a href="#">About</a></li>
+                    <li class="nav-item block"><a href="#">Contact us</a></li>
+                </ul>
             </div>
-        </header>
-    
-    
-    <br>
-    <br>
-    <table>
-        <tr>
-            <td>
+        </nav>
+        <div class="top-section">
+            <img src="./images/business.png" class="top-section-img" />
+        </div>
+    </header>
+    <aside class="block mt-2">
+        <ul class="side-items">
+            <li class="side-item"><a href="#">About</a></li>
+            <li class="side-item"><a href="#">Services</a></li>
+            <li class="side-item" id="contact"><a href="#">Contact</a></li>
+        </ul>
+    </aside>
+    <article class="block mt-2">
+        <center>
+            <form class="center">
                 <table>
                     <tr>
-                        <td><div class = "field">DIC Carriculum</div></td>
+                        <th>
+                            <label for="name">Username</label>
+                        </th>
+                        <td>
+                            <input class="form-item" id="name" type="text" required />
+                        </td>
                     </tr>
                     <tr>
-                        <td><div class = "field">DIC Tasks</div></td>
+                        <th>
+                            <label for="name">Email</label>
+                        </th>
+                        <td>
+                            <input class="form-item" id="email" type="text" required />
+                        </td>
                     </tr>
                     <tr>
-                        <td><div class="field">DIC Graduation</div></td>
+                        <th>
+                            <label for="name">Gender</label>
+                        </th>
+                        <td>
+                            <input class="form-item" type="radio" id="gende" name="gender" required />Male
+                            <input class="form-item" type="radio" id="gender" name="gender" required />Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="name">Description</label>
+                        </th>
+                        <td>
+                            <textarea class="form-input"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>
+                            <input type="submit" class="submit" />
+                        </td>
                     </tr>
                 </table>
-            </td>
-            <td>
-                <form>
-
-                    Name: <input type="text" class="input"><br><br>
-                    phone: <input type="number" class="input"><br><br>
-                    email: <input type="email" class="input"><br><br>
-                    <div class="save"><input type="submit" value =  "save" id="btn"></div><br>
-                </form>
-            </td>
-        </tr>
-    </table>
+            </form>
+        </center>
+    </article>
     <footer class="footer">
-            <span class="footer-content">Copyright ©2019 by KAVUNA Paul RIGHTS RESERVED</span>
-        </footer>
+        <span class="footer-content">Copyright ©2019 BY KAVUNA Paul ALLRIGHTS RESERVED</span>
+    </footer>
 </body>
+
 </html>
