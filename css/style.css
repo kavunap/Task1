@@ -98,6 +98,10 @@ li[class="side-item active"] a {
     margin-left: 190px;
     border: none;
     /*transition: all 0.9s*/
+	cursor: pointer;
+}
+.submit:hover{
+background-color:green;
 }
 
 .btn:hover {
